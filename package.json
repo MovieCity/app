@@ -1,0 +1,23 @@
+{
+  "name": "sports-matches-api",
+  "version": "1.0.0",
+  "description": "Node.js API for managing sports matches with Supabase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["sports", "matches", "supabase", "api", "nodejs", "express"],
+  "author": "Eren",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.36.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
